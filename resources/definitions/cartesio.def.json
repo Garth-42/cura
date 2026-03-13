@@ -34,8 +34,8 @@
     "overrides":
     {
         "gantry_height": { "value": "35" },
-        "layer_height": { "maximum_value": "(0.8 * min(extruderValues('machine_nozzle_size')))" },
-        "layer_height_0": { "maximum_value": "(0.8 * min(extruderValues('machine_nozzle_size')))" },
+        "layer_height": { "maximum_value": "(2.0 * min(extruderValues('machine_nozzle_size')))" },
+        "layer_height_0": { "maximum_value": "(2.0 * min(extruderValues('machine_nozzle_size')))" },
         "machine_center_is_zero": { "default_value": false },
         "machine_depth": { "default_value": 270 },
         "machine_disallowed_areas":
