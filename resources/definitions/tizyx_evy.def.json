@@ -45,8 +45,6 @@
         "fill_outline_gaps": { "default_value": true },
         "gantry_height": { "value": "500" },
         "infill_sparse_density": { "default_value": 15 },
-        "layer_height": { "maximum_value": "(0.8 * min(extruderValues('machine_nozzle_size')))" },
-        "layer_height_0": { "maximum_value": "(0.8 * min(extruderValues('machine_nozzle_size')))" },
         "machine_center_is_zero": { "default_value": false },
         "machine_depth": { "default_value": 255 },
         "machine_end_gcode": { "default_value": "M104 S0\nM140 S0\nG91\nG1 E-5 F300\nG1 Z+3 F3000\nG1 Y245 F3000\nM84" },
