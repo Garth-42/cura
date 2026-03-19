@@ -822,7 +822,6 @@
                     "default_value": 0.1,
                     "minimum_value": "0.001",
                     "minimum_value_warning": "0.04",
-                    "maximum_value_warning": "2.0 * min(extruderValues('machine_nozzle_size'))",
                     "settable_per_mesh": false,
                     "settable_per_extruder": false
                 },
@@ -836,7 +835,6 @@
                     "resolve": "min(extruderValues('layer_height_0'))",
                     "minimum_value": "0.001",
                     "minimum_value_warning": "0.1",
-                    "maximum_value_warning": "2.0 * min(extruderValues('machine_nozzle_size'))",
                     "settable_per_mesh": false,
                     "settable_per_extruder": false
                 },

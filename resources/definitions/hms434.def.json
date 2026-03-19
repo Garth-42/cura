@@ -95,8 +95,6 @@
         "ironing_line_spacing": { "value": "line_width / 4 * 3" },
         "jerk_print": { "value": 10 },
         "jerk_travel": { "value": 10 },
-        "layer_height": { "maximum_value": "(2.0 * min(extruderValues('machine_nozzle_size')))" },
-        "layer_height_0": { "maximum_value": "(2.0 * min(extruderValues('machine_nozzle_size')))" },
         "machine_acceleration": { "default_value": 180 },
         "machine_center_is_zero": { "default_value": false },
         "machine_depth": { "default_value": 325 },
